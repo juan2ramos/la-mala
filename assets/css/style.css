@@ -1,0 +1,136 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: 0;
+}
+@font-face {
+    font-family: 'Conv_Notepaper Airplanes dafont';
+    src: url('fonts/Notepaper Airplanes dafont.eot');
+    src: local('☺'), url('fonts/Notepaper Airplanes dafont.woff') format('woff'), url('fonts/Notepaper Airplanes dafont.ttf') format('truetype'), url('fonts/Notepaper Airplanes dafont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,8c8c8c+100 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #8c8c8c 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#8c8c8c)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#8c8c8c 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #ffffff 0%,#8c8c8c 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%,#8c8c8c 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center, #ffffff 0%,#8c8c8c 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#8c8c8c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color:#ffffff;
+    font-size: 16px;
+    font-family:'Conv_Notepaper Airplanes dafont',Sans-Serif;
+    text-align: center;
+}
+
+body, h2, h3, h4, p {
+    font-weight: 300
+}
+
+h1, h2, h3, ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    margin: auto;
+    max-width: 65rem;
+    width: 90%;
+    padding: 2rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+/*=================================================================
+header
+===================================================================*/
+
+
+/*=================================================================
+form
+===================================================================*/
+.form{
+    background: url("../images/backForm.svg");
+    background-size: 380px ;
+    height: 592px;
+    transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    width: 380px;
+}
+.logo{
+    max-width: 200px;
+
+}
+.form,.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.form h2{
+    font-size: 5rem;
+    line-height: .6em;
+    margin-top: .5rem;
+    max-width: 300px;
+    text-transform: uppercase;
+}
+.form p{
+    font-size: 2rem;
+    line-height: .9em;
+    margin: .8rem 0;
+    max-width: 300px;
+}
+.form input, .form textarea{
+    background: transparent;
+    border: none;
+    color:#999999;
+    font-size: 2rem;
+    display: block;
+    margin: 1.6rem 2.2rem;
+}
+.form textarea{
+    height: 162px;
+    width: 228px;
+}
+.form button{
+    background: transparent;
+    border:  none;
+    color: #ED0F11;
+    font-size: 2rem;
+    display: block;
+    position: relative;
+    left: 189px;
+    top: -13px;
+    padding: 0 15px;
+
+}
+h1{
+    color: black;
+    font-size: 6rem;
+    font-weight: lighter;
+    line-height: .7em;
+}
+h3{
+    color: #999999;
+    font-size: 2rem;
+}
