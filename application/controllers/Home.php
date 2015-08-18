@@ -30,8 +30,8 @@ class Home extends CI_Controller
     {
         if ($this->input->post()) {
             $config = [
-                ['field' => 'url_image', 'label' => 'url_image', 'rules' => 'required'],
-                ['field' => 'name-user', 'label' => 'name-user', 'rules' => 'required'],
+                ['field' => 'nombre', 'label' => 'nombre', 'rules' => 'required'],
+                ['field' => 'mensaje', 'label' => 'mensaje', 'rules' => 'required'],
 
                 ['field' => 'email', 'label' => 'email', 'rules' => 'required|valid_email|is_unique[users.email]'],
             ];

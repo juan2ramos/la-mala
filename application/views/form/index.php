@@ -4,9 +4,9 @@
 
     <p>Pero ya que estás aquí, déjanos tus <br> datos que nosotros contestamos rapidito.</p>
 
-    <input type="text" placeholder="Tu nombre">
-    <input type="text" placeholder="Tu correo electrónico">
-    <textarea name="" placeholder="Tu mensaje"></textarea>
+    <input type="text" name="nombre"  placeholder="Tu nombre">
+    <input type="text" name="email" placeholder="Tu correo electrónico">
+    <textarea name="mensaje"  placeholder="Tu mensaje"></textarea>
     <button> Enviar</button>
     <a href="mailto:yosoy@lamalacompania.com">yosoy@lamalacompania.com</a>
     </form>
