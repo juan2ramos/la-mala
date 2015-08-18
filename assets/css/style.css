@@ -54,6 +54,7 @@ li {
 main {
     margin: auto;
     max-width: 65rem;
+    max-height: 100vh;
     width: 90%;
     padding: 2rem;
 }
@@ -71,13 +72,13 @@ header
 form
 ===================================================================*/
 .form{
-    background: url("../images/backForm.svg");
-    background-size: 380px ;
-    height: 592px;
+    background: url("../images/backForm.png") no-repeat;
+    background-size: 336px ;
+    height: 523px;
     transform: rotate(-7deg);
     -moz-transform: rotate(-7deg);
     -webkit-transform: rotate(-7deg);
-    width: 380px;
+    width: 336px;
 }
 .logo{
     max-width: 200px;
@@ -88,17 +89,17 @@ form
     vertical-align: middle;
 }
 .form h2{
-    font-size: 5rem;
-    line-height: .6em;
-    margin-top: .5rem;
-    max-width: 300px;
+    font-size: 4rem;
+    line-height: 0.6em;
+    margin-top: 0.5rem;
+    max-width: 265px;
     text-transform: uppercase;
 }
 .form p{
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: .9em;
     margin: .8rem 0;
-    max-width: 300px;
+    max-width: 265px;
 }
 .form input, .form textarea{
     background: transparent;
@@ -106,11 +107,12 @@ form
     color:#999999;
     font-size: 2rem;
     display: block;
-    margin: 1.6rem 2.2rem;
+    margin: 26px 40px 10px;
+    line-height: 1.2em;
 }
 .form textarea{
-    height: 162px;
-    width: 228px;
+    height: 132px;
+    width: 188px;
 }
 .form button{
     background: transparent;
@@ -119,10 +121,17 @@ form
     font-size: 2rem;
     display: block;
     position: relative;
-    left: 189px;
-    top: -13px;
+    left: 163px;
+    top: 4px;
     padding: 0 15px;
 
+}
+.form a{
+    color: white;
+    display: block;
+    width: 272px;
+    margin: 0px 0;
+    font-size: 1.7rem;
 }
 h1{
     color: black;
@@ -133,4 +142,19 @@ h1{
 h3{
     color: #999999;
     font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+    .form {
+        background: url("../images/backFormMobile.png") no-repeat;
+        background-size: 270px ;
+        height: 598px;
+        transform: rotate(2deg);
+        width: 270px;
+    }
+    .logo{
+        max-width: 150px;
+    }
+
+
 }

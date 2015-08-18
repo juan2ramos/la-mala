@@ -7,7 +7,7 @@ class Home extends CI_Controller
 
     public function index()
     {
-        $this->load->view('layouts/default', ['title' => 'Formulario', 'view' => 'form/index']);
+        $this->load->view('layouts/default', ['title' => 'La Mala Compañia', 'view' => 'form/index']);
     }
 
     public function post()
