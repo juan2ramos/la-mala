@@ -5,6 +5,12 @@ class Home extends CI_Controller
 {
     private $messageError;
 
+    function __construct()
+    {
+        parent::__construct();
+        $this->load->helper('form');
+        $this->load->library('form_validation');
+    }
     public function index()
     {
         $this->load->view('layouts/default', ['title' => 'La Mala Compañia', 'view' => 'form/index']);
