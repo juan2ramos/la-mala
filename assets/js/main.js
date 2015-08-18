@@ -27,15 +27,17 @@ $(function () {
             $("input").css({'border-color': '#e0e0e0'});
             $("textarea").css({'border-color': '#e0e0e0'});
 
-            /*$('.content-error').addClass('show');
+
+
+            $('.content-error').addClass('show');
 
             for (var i = 0; i < res.length - 1; i++) {
                 var str = res[i].trim();
-                $("input[name='" + str + "']").css({'border-color': '#D60C41'}, {'background-color': 'red'});
-                html += "<li> El valor del campo " + filesForm[str] + " no es valido</li>";
-
+                html += " " + str + " ";
+                /*$("input[name='" + str + "']").css({'border-color': '#D60C41'}, {'background-color': 'red'});
+                html += "<li> El valor del campo " + filesForm[str] + " no es valido</li>";*/
             }
-            $erros.html(html);*/
+            alert("Tienes errores en los campos" + html);
         }
         else {
             $('main').append(" <span class='thanks'>Gracias por inscribirte, en cuanto verifiquemos los datos te confirmaremos vía correo electrónico tu participación en Red Bull.</span>");
