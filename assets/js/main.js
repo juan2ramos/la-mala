@@ -40,7 +40,7 @@ $(function () {
             alert("Tienes errores en los campos" + html);
         }
         else {
-            $('main').append(" <span class='thanks'>Gracias por inscribirte, en cuanto verifiquemos los datos te confirmaremos vía correo electrónico tu participación en Red Bull.</span>");
+            $('main').append(" <span class='thanks'>¡Gracias por tu mensaje, ya nos vamos a comunicar contigo!.</span>");
             $('#form').slideUp("slow");
         }
     }
