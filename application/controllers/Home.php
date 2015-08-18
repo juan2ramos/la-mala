@@ -54,5 +54,9 @@ class Home extends CI_Controller
             return false;
         }
     }
+    private function insertForm($post)
+    {
+        $this->users_model->addUser($post);
+    }
 
 }
