@@ -8,6 +8,15 @@
     outline: 0;
 }
 @font-face {
+    font-family: 'Noteworthy';
+    src: url('fonts/Noteworthy-Light.eot');
+    src: url('fonts/Noteworthy-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Noteworthy-Light.woff') format('woff'),
+    url('fonts/Noteworthy-Light.ttf')  format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
     font-family: 'Conv_lamala';
     src: url('fonts/lamala.eot');
     src: local('☺'), url('fonts/lamala.woff') format('woff'), url('fonts/lamala.ttf') format('truetype'), url('fonts/lamala.svg') format('svg');
@@ -30,7 +39,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#8c8c8c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     color:#ffffff;
     font-size: 16px;
-    font-family:'Conv_lamala',Sans-Serif;
+    font-family: 'Noteworthy';
     text-align: center;
 }
 
@@ -61,6 +70,10 @@ main {
 
 p {
     font-size: 1.3rem;
+}
+h2{
+
+    font-family:'Conv_lamala',Sans-Serif;
 }
 
 /*=================================================================
