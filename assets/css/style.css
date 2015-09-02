@@ -109,19 +109,19 @@ form
     text-transform: uppercase;
 }
 .form p{
-    font-size: 1.6rem;
-    line-height: .9em;
+    font-size: 1rem;
+    line-height: 1.5em;
     margin: .8rem 0;
     max-width: 265px;
 }
 .form input, .form textarea{
-    background: transparent;
-    border: none;
-    color:#999999;
-    font-size: 2rem;
+    background: transparent ;
+    border:  none;
+    color: #999;
+    font-size: 1.4rem;
     display: block;
     margin: 26px 40px 10px;
-    line-height: 1.2em;
+    line-height: 1.6em;
 }
 .form textarea{
     height: 132px;
@@ -131,26 +131,27 @@ form
     background: transparent;
     border:  none;
     color: #ED0F11;
-    font-size: 2rem;
+    font-size: 1rem;
     display: block;
     position: relative;
     left: 163px;
-    top: 4px;
+    top: 13px;
     padding: 0 15px;
 
 }
 .form a{
-    color: white;
+    color: #FFF;
     display: block;
-    width: 272px;
-    margin: 0px 0;
-    font-size: 1.7rem;
+    width: 264px;
+    margin: 15px 0;
+    font-size: 1.1rem;
 }
 h1{
-    color: black;
-    font-size: 6rem;
+    color: #000;
+    font-size: 3rem;
     font-weight: lighter;
-    line-height: .7em;
+    line-height: 0.7em;
+    margin-top: 50px;
 }
 h3{
     color: #999999;
