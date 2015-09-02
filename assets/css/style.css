@@ -169,6 +169,21 @@ h3{
     .logo{
         max-width: 150px;
     }
+    .form button{
+        top: 17px;
+    }
+    .form a {;
+        width: 264px;
+        margin: 20px 0;
+    }
+    h1 {
+
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1rem;
+        margin: 4px;
+    }
 
 
 }
