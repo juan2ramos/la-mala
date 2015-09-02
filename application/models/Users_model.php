@@ -19,4 +19,5 @@ class Users_model extends CI_Model
     function addUser($postData){
         $this->db->insert('users', $postData);
     }
+
 }

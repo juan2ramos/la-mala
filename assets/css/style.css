@@ -8,9 +8,9 @@
     outline: 0;
 }
 @font-face {
-    font-family: 'Conv_Notepaper Airplanes dafont';
-    src: url('fonts/Notepaper Airplanes dafont.eot');
-    src: local('☺'), url('fonts/Notepaper Airplanes dafont.woff') format('woff'), url('fonts/Notepaper Airplanes dafont.ttf') format('truetype'), url('fonts/Notepaper Airplanes dafont.svg') format('svg');
+    font-family: 'Conv_lamala';
+    src: url('fonts/lamala.eot');
+    src: local('☺'), url('fonts/lamala.woff') format('woff'), url('fonts/lamala.ttf') format('truetype'), url('fonts/lamala.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -30,7 +30,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#8c8c8c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     color:#ffffff;
     font-size: 16px;
-    font-family:'Conv_Notepaper Airplanes dafont',Sans-Serif;
+    font-family:'Conv_lamala',Sans-Serif;
     text-align: center;
 }
 
